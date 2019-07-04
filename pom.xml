@@ -171,7 +171,7 @@
     <distributionManagement>
         <repository>
             <id>dsi-maven-artifacts</id>
-	    <url>https://nexus.smeg.tecnico.ulisboa.pt/repository/dsi-maven-artifacts</url>
+            <url>http://nexus.smeg.tecnico.ulisboa.pt/repository/dsi-maven-artifacts</url>
         </repository>
     </distributionManagement>
 
