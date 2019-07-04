@@ -44,9 +44,9 @@
     </ciManagement>
 
     <scm>
-        <connection>scm:git:git@github.com:ist-dsi/fenixedu-id-cards.git</connection>
-        <developerConnection>scm:git:git@github.com:ist-dsi/fenixedu-id-cards.git</developerConnection>
-        <url>http://fenixedu.org</url>
+        <connection>scm:git:git@github.com:tiagoppinho/fenixedu-id-cards.git</connection>
+        <developerConnection>scm:git:git@github.com:tiagoppinho/fenixedu-id-cards.git</developerConnection>
+	<url>https://github.com/tiagoppinho/fenixedu-id-cards</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -167,12 +167,20 @@
         </plugins>
     </build>
 
+
     <distributionManagement>
         <repository>
-            <id>fenixedu-contrib-releases</id>
-            <url>https://repo.fenixedu.org/fenixedu-contrib-releases</url>
+            <id>dsi-maven-artifacts</id>
+	    <url>https://nexus.smeg.tecnico.ulisboa.pt/repository/dsi-maven-artifacts</url>
         </repository>
     </distributionManagement>
+
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>fenixedu-contrib-releases</id>-->
+<!--            <url>https://repo.fenixedu.org/fenixedu-contrib-releases</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
 
     <repositories>
         <repository>
